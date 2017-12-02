@@ -7,7 +7,7 @@ data = LOAD 'city.csv' USING PigStorage(',') AS (
   Citytype:chararray,
   Recordtype:chararray,
   Reliability:chararray,
-  Sourceyear: int,
+  Sourceyear:int,
   Value:float,
   ValueFootnotes:int
 );
