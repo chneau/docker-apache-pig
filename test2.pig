@@ -1,4 +1,4 @@
-data = LOAD 'sub.csv' USING PigStorage(',') AS (
+data = LOAD 'city.csv' USING PigStorage(',') AS (
   CountryorArea:chararray,
   Year:int,
   Area:chararray,
